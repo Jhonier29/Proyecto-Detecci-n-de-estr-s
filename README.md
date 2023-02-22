@@ -23,7 +23,7 @@ Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultado
 
 Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al validarlos con 3 sujetos extraidos de la base de datos, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
 
-Nombre de la tabla: resultados"N" _ "z" _ "abc" 
+Nombre de la tabla: resultados"N"_"z"_"abc" 
 
 Donde: "z" es la base de datos usada.
   
