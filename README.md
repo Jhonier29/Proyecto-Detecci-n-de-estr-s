@@ -19,7 +19,7 @@ Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultado
   
   "N" corresponde a el tipo de clasificación la cual puede ser "bin" de binaria o "tri" de 3 clases.
   
- Ejemplo: la tabla denominada S2_bin_C=5_BD2.xlxs, hace referencia a que se uso el sujeto S2 con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
+ Ejemplo: la tabla denominada S2_bin_C=5_BD2.xlxs, hace referencia a que se uso el sujeto S2 en la clasificación binaria, con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
 
 Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al validarlos con 3 sujetos extraidos de la base de datos, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
 
