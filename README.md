@@ -9,19 +9,25 @@ En la carpeta denominada "Resultados" se encuentran las carpetas llamadas "Clasi
 En la carpeta de "Clasificación binaria" y "Clasificación de 3 clases" se encuentran 5 carpetas denominadas, "Tablas BD1", "Tablas BD2", "Tablas BD3", "Tablas BD4","Validación 3 sujetos".
 Al interior de estas 4 primeras carpetas se encuentran las tablas que estan conformadas por tres secciones, de la siguiente manera: en la sección de la izquierda, se encuentran los resultados de los algoritmos cuando la division para datos de entrenamiento y validacion se hace automaticamente por la libreria usada en python, esta seccion va hasta la columna llamada "n_est | learning rate". Luego esta la sección del centro, donde se encuentran los resultados al validar a los algoritmos con el sujeto sacado antes del entrenamiento. Por ultimo, se encuentra la sección de la derecha, la cual esta separada de la sección central gracias a una columna en blanco donde se encuentran los resultados de los algoritmos al reducir el numero de caracteristicas. Para identificar el sujeto usado, la base de datos y el numero de caracteristicas, tener encuenta la siguiente notación:
 
-Nombre de la tabla: S"#"bin_C= "x"_"z"
+Nombre de la tabla: S"#""N"_C= "x"_"z"
 
 Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultados de la columna central y derecha de caracteristicas reducidas.
   
-  "x" corresponde al numero de caracteristicas mas relevantes con la cual se entreno los algortimos
+  "x" corresponde al numero de caracteristicas relevantes las cuales quedaron despues de hacer la reducción con la cual se entreno los algoritmos.
   
-  "z" corresponde a la base de datos usada 
-por ejemplo la tabla denominada S2_bin_C=5_BD2.xlxs hace referencia a que se uso el sujeto S2 con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
+  "z" corresponde a la base de datos usada.
+  
+  "N" corresponde a el tipo de clasificación la cual puede ser "bin" de binaria o "tri" de 3 clases.
+  
+ Ejemplo: la tabla denominada S2_bin_C=5_BD2.xlxs, hace referencia a que se uso el sujeto S2 con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
 
-Para la carpeta "Validación 3 sujetos" se encuentran tablas de datos donde estan los resultados de los algoritmos al validarlos con 3 sujetos extraidos de la base de datos, estos resultados solo estan disponibles para la "BD1" y "BD3", para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
-resultadosbin_"z"_"abc" donde: "z" es la base de datos usada y
-                               "a","b","c" corresponden al numero de cada sujeto usado, cabe recalcar que los sujetos extraidos son consecutivos
+Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al validarlos con 3 sujetos extraidos de la base de datos, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
 
+Nombre de la tabla: resultados"N"_"z"_"abc" 
 
-### Clasificación de 3 clases
-lo mismo que antes pero dice tres clases 
+Donde: "z" es la base de datos usada.
+  
+  "a","b","c" corresponden al numero de cada sujeto usado, cabe recalcar que los sujetos extraidos son consecutivos.
+                               
+  "N" corresponde a el tipo de clasificación.
+
