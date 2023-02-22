@@ -1,4 +1,4 @@
-# Proyecto-Detecci-n-de-estr-s
+# Proyecto Detección de estres
 En este repositorio se presentan los códigos realizados en Python y Matlab para el entrenamiento de algoritmos de machine learning y el procesamiento de las señales fisiológicas. Ademas se encuentras las tablas de datos completas con las métricas de análisis e hierparametros utilizados en la creación de los modelos.  
 ## Bases de datos
 En la carpeta llamada Base de datos se encuentran 4 carpetas denominadas "BD1", "BD2", "BD3", "BD4" donde se encuentran archivos de valores separados por comas (.csv) con las caracteristicas extraidas a las señales de la base de datos WESAD por cada uno de los individuos desde el "S2" a "S11" y "S13" a "S17".
