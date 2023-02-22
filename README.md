@@ -12,8 +12,10 @@ Al interior de estas 4 primeras carpetas se encuentran las tablas que estan conf
 Nombre de la tabla: S"#"bin_C= "x"_"z"
 
 Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultados de la columna central y derecha de caracteristicas reducidas.
-                 \n"x" corresponde al numero de caracteristicas mas relevantes con la cual se entreno los algortimos
-                 "z" corresponde a la base de datos usada 
+  
+  "x" corresponde al numero de caracteristicas mas relevantes con la cual se entreno los algortimos
+  
+  "z" corresponde a la base de datos usada 
 por ejemplo la tabla denominada S2_bin_C=5_BD2.xlxs hace referencia a que se uso el sujeto S2 con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
 
 Para la carpeta "Validación 3 sujetos" se encuentran tablas de datos donde estan los resultados de los algoritmos al validarlos con 3 sujetos extraidos de la base de datos, estos resultados solo estan disponibles para la "BD1" y "BD3", para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
