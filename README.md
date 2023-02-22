@@ -9,7 +9,7 @@ En la carpeta denominada "Resultados" se encuentran las carpetas llamadas "Clasi
 En la carpeta de "Clasificación binaria" y "Clasificación de 3 clases" se encuentran 5 carpetas denominadas, "Tablas BD1", "Tablas BD2", "Tablas BD3", "Tablas BD4","Validación 3 sujetos".
 Al interior de estas 4 primeras carpetas se encuentran las tablas que estan conformadas por tres secciones, de la siguiente manera: en la sección de la izquierda, se encuentran los resultados de los algoritmos cuando la division para datos de entrenamiento y validacion se hace automaticamente por la libreria usada en python, esta seccion va hasta la columna llamada "n_est | learning rate". Luego esta la sección del centro, donde se encuentran los resultados al validar a los algoritmos con el sujeto sacado antes del entrenamiento. Por ultimo, se encuentra la sección de la derecha, la cual esta separada de la sección central gracias a una columna en blanco donde se encuentran los resultados de los algoritmos al reducir el numero de caracteristicas. Para identificar el sujeto usado, la base de datos y el numero de caracteristicas, tener encuenta la siguiente notación:
 
-Nombre de la tabla: S"#""N"_C= "x"_"z"
+Nombre de la tabla: S"#""N" _ C= "x" _ "z"
 
 Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultados de la columna central y derecha de caracteristicas reducidas.
   
@@ -23,7 +23,7 @@ Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultado
 
 Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al validarlos con 3 sujetos extraidos de la base de datos, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
 
-Nombre de la tabla: resultados"N"_"z"_"abc" 
+Nombre de la tabla: resultados"N" _ "z" _ "abc" 
 
 Donde: "z" es la base de datos usada.
   
