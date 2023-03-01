@@ -13,21 +13,15 @@ Nombre de la tabla: S"#""N" _ C= "x" _ "z"
 
 Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultados de la columna central y derecha de caracteristicas reducidas.
   
-  "x" corresponde al numero de caracteristicas relevantes las cuales quedaron despues de hacer la reducción con la cual se entreno los algoritmos.
+  * "x" corresponde al numero de caracteristicas relevantes las cuales quedaron despues de hacer la reducción con la cual se entreno los algoritmos.
   
-  "z" corresponde a la base de datos usada.
+  * "z" corresponde a la base de datos usada.
   
-  "N" corresponde a el tipo de clasificación la cual puede ser "bin" de binaria o "tri" de 3 clases.
+  * "N" corresponde a el tipo de clasificación la cual puede ser "bin" de binaria o "tri" de 3 clases.
   
  Ejemplo: la tabla denominada S2_bin_C=5_BD2.xlxs, hace referencia a que se uso el sujeto S2 en la clasificación binaria, con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
 
-Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al validarlos con 3 sujetos extraidos de la base de datos, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
-
-Nombre de la tabla: resultados"N" _ "z" _ "abc" 
-
-Donde: "z" es la base de datos usada.
-  
-  "a","b","c" corresponden al numero de cada sujeto usado, cabe recalcar que los sujetos extraidos son consecutivos.
-                               
-  "N" corresponde a el tipo de clasificación.
-
+## CODIGOS
+En esta carpeta se encuentran todos los codigos utilizados para el desarrollo del proyecto. A continuación se describe cada uno de ellos.
+  * Los codigos denominados "Clasifiacion_3_clases_Algoritmos_de_ML" y "Clasificación_Binaria_Algoritmos_de_ML", permiten entrenar los algortimos de ML para 3 y 2 clases respectivamente, con el fin de generar las metricas de analisis que se almacenan en un libro Excel que puede ser descargado al final.
+  * Para la medición y creación de las bases de datos se utilizaron dos codigos
