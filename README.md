@@ -24,4 +24,5 @@ Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultado
 ## CODIGOS
 En esta carpeta se encuentran todos los codigos utilizados para el desarrollo del proyecto. A continuación se describe cada uno de ellos.
   * Los codigos denominados "Clasifiacion_3_clases_Algoritmos_de_ML" y "Clasificación_Binaria_Algoritmos_de_ML", permiten entrenar los algortimos de ML para 3 y 2 clases respectivamente, con el fin de generar las metricas de analisis que se almacenan en un libro Excel que puede ser descargado al final.
-  * Para la medición y creación de las bases de datos se utilizaron dos codigos
+  * Para la medición de las señales GSR, ECG y pulso cardiaco, se utilizaron los codigos llamados "adquisicion_senal_gsr" y "medicion_ecg_pulso", los cuales deben ser ejecutados al mismo tiempo y finalmente guardarán las señales medidas. Posteriormente, para la extracción de las caracteristicas de señales tomadas, se debe ingresar los nombres de estas en el codigo "generacion_caracteristicas_pulso_gsr_ecg", el cual, calcula y guarda los datos necesarios para crear la base de datos.
+  * EL codigo denominado "cod_matlab_extraccion_caracteristicas", permite extraer las caracteristicas de las señales por sujeto, que se encuentran en la base de datos WESAD.
