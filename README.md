@@ -21,8 +21,6 @@ Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultado
   
  Ejemplo: la tabla denominada S2_BD2_C=5_bin.xlxs, hace referencia a que se uso el sujeto S2 en la clasificación binaria, con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
 
-En la quinta carpeta denominada "Validación 3 sujetos" se encuentran los resultados de los algoritmos al ser entrenados con el 80% de datos de 12 sujetos y ser evaluados en primer instancia con el 20% restante, estos resultados se encuentran en la zona izquierda de cada una de las tablas de resultados mientras que la zona derecha corresponden a los resultados al evaluar los modelos con los 3 sujetos extraidos con anterioridad
-
 Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al ser entrenados con el 80% de datos de 12 sujetos y ser evaluados en primer instancia con el 20% restante, estos resultados se encuentran en la zona izquierda de cada una de las tablas de resultados mientras que la zona derecha corresponden a los resultados al evaluar los modelos con los 3 sujetos extraidos con anterioridad, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
 
 Nombre de la tabla: S"a""b""c"_"z"_"N"
