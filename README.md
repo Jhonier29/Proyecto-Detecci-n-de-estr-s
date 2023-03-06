@@ -21,6 +21,20 @@ Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultado
   
  Ejemplo: la tabla denominada S2_BD2_C=5_bin.xlxs, hace referencia a que se uso el sujeto S2 en la clasificación binaria, con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
 
+En la quinta carpeta denominada "Validación 3 sujetos" se encuentran los resultados de los algoritmos al ser entrenados con el 80% de datos de 12 sujetos y ser evaluados en primer instancia con el 20% restante, estos resultados se encuentran en la zona izquierda de cada una de las tablas de resultados mientras que la zona derecha corresponden a los resultados al evaluar los modelos con los 3 sujetos extraidos con anterioridad
+
+Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al ser entrenados con el 80% de datos de 12 sujetos y ser evaluados en primer instancia con el 20% restante, estos resultados se encuentran en la zona izquierda de cada una de las tablas de resultados mientras que la zona derecha corresponden a los resultados al evaluar los modelos con los 3 sujetos extraidos con anterioridad, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
+
+Nombre de la tabla: S"a""b""c"_"z"_"N"
+
+Donde: "z" es la base de datos usada.
+
+"a","b","c" corresponden al numero de cada sujeto usado, cabe recalcar que los sujetos extraidos son consecutivos.
+
+"N" corresponde a el tipo de clasificación.
+
+Ejemplo: la tabla denominada S234_BD2_bin.xlxs, hace referencia a que se usarón los sujetos S2, s3, s4 en la clasificación binaria y la base de datos 2.
+
 ## CODIGOS
 En esta carpeta se encuentran todos los codigos utilizados para el desarrollo del proyecto. A continuación se describe cada uno de ellos.
   * Los codigos denominados "Clasifiacion_3_clases_Algoritmos_de_ML" y "Clasificación_Binaria_Algoritmos_de_ML", permiten entrenar los algortimos de ML para 3 y 2 clases respectivamente, con el fin de generar las metricas de analisis que se almacenan en un libro Excel que puede ser descargado al final.
