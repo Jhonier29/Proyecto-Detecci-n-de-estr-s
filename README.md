@@ -6,7 +6,7 @@ En la carpeta llamada Base de datos se encuentran 4 carpetas denominadas "BD1", 
 En la carpeta denominada "Resultados" se encuentran las carpetas llamadas "Clasificación binaria" y "Clasificación de 3 clases". A continuación se describe el contenido de estas.
 
 ### Contenido
-En la carpeta de "Clasificación binaria" y "Clasificación de 3 clases" se encuentran 5 carpetas denominadas, "Tablas BD1", "Tablas BD2", "Tablas BD3", "Tablas BD4","Validación 3 sujetos".
+En la carpeta de "Clasificación binaria" y "Clasificación de 3 clases" se encuentran 5 carpetas denominadas, "Tablas BD1", "Tablas BD2", "Tablas BD3", "Tablas BD4" y "Validación 3 sujetos".
 Al interior de estas 4 primeras carpetas se encuentran las tablas que estan conformadas por tres secciones, de la siguiente manera: en la sección de la izquierda, se encuentran los resultados de los algoritmos cuando la division para datos de entrenamiento y validacion se hace automaticamente por la libreria usada en python, esta seccion va hasta la columna llamada "n_est | learning rate". Luego esta la sección del centro, donde se encuentran los resultados al validar a los algoritmos con el sujeto sacado antes del entrenamiento. Por ultimo, se encuentra la sección de la derecha, la cual esta separada de la sección central gracias a una columna en blanco donde se encuentran los resultados de los algoritmos al reducir el numero de caracteristicas. Para identificar el sujeto usado, la base de datos y el numero de caracteristicas, tener encuenta la siguiente notación:
 
 Nombre de la tabla: S"#"_ "z"_ C= "x" _"N"
@@ -21,7 +21,7 @@ Donde: "#" corresponde al sujeto con el cual se valido y se obtuvo los resultado
   
  Ejemplo: la tabla denominada S2_BD2_C=5_bin.xlxs, hace referencia a que se uso el sujeto S2 en la clasificación binaria, con un minimo de caracteristicas relevantes de 5 y la base de datos 2.
 
-Para la carpeta "Validación 3 sujetos", se encuentran tablas de datos donde estan los resultados de los algoritmos al ser entrenados con el 80% de datos de 12 sujetos y ser evaluados en primer instancia con el 20% restante, estos resultados se encuentran en la zona izquierda de cada una de las tablas de resultados mientras que la zona derecha corresponden a los resultados al evaluar los modelos con los 3 sujetos extraidos con anterioridad, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
+En la carpeta "Validación 3 sujetos", se encuentran las tablas de datos con los resultados de los algoritmos al ser entrenados con el 80% de datos de 12 sujetos y ser evaluados en primera instancia con el 20% restante, estos resultados se encuentran en la zona izquierda de cada una de las tablas, mientras que en la zona derecha etsan los obtenidos al evaluar los modelos de ML con los 3 sujetos restantes, para identificar que sujetos fueron extraidos se debe tener encuenta la siguiente notación:
 
 Nombre de la tabla: S"a""b""c"_"z"_"N"
 
